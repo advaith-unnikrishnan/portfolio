@@ -8,14 +8,14 @@ export default function Home() {
       <Head>
         <title>Advaith | Home</title>
         <meta name="description" content="Personal portfolio of advaith" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/icon.png" />
       </Head>
 
       <main className={styles.main}>
         <p className={styles.title}>
-          Check out my blog <a href="https://blog.advaith.tech">here</a>
+          Work in progress<br/>
+          <a href='https://advaith.bio.link/'>Know more</a>
         </p>
-
       </main>
     </div>
   )
