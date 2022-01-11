@@ -1,22 +1,25 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Acomplishments from '../components/Acomplishments/Acomplishments';
+import BgAnimation from '../components/BackgrooundAnimation/BackgroundAnimation';
+import Hero from '../components/Hero/Hero';
+import Projects from '../components/Projects/Projects';
+import Technologies from '../components/Technologies/Technologies';
+import Timeline from '../components/TimeLine/TimeLine';
+import { Layout } from '../layout/Layout';
+import { Section } from '../styles/GlobalComponents';
 
-export default function Home() {
+const Home = () => {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Advaith | Home</title>
-        <meta name="description" content="Personal portfolio of advaith" />
-        <link rel="icon" href="/icon.png" />
-      </Head>
+    <Layout>
+      {/* <Section grid> */}
+        <Hero />
+        {/* <BgAnimation /> */}
+      {/* </Section> */}
+      <Projects />
+      <Technologies />
+      <Timeline />
+      <Acomplishments />
+    </Layout>
+  );
+};
 
-      <main className={styles.main}>
-        <p className={styles.title}>
-          Work in progress<br/>
-          <a href='https://advaith.bio.link/'>Know more</a>
-        </p>
-      </main>
-    </div>
-  )
-}
+export default Home;
