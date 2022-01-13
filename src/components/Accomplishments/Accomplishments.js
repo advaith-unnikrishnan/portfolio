@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
+import { Box, Boxes, BoxNum, BoxText } from './AccomplishmentsStyles';
 
 const data = [
   { number: 20, text: 'Open Source Projects'},
@@ -10,10 +10,10 @@ const data = [
   { number: 5000, text: 'Github Stars', }
 ];
 
-const Acomplishments = () => (
+const Accomplishments = () => (
   <div>
     Acomplishments
   </div>
 );
 
-export default Acomplishments;
+export default Accomplishments;
