@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillTwitterCircle } from "react-icons/ai";
-import { DiCssdeck } from "react-icons/di";
+import { HiOutlineCode } from "react-icons/hi";
 
 import {
   Container,
@@ -18,8 +18,7 @@ const Header = () => (
     <Div1>
       <Link href="/">
         <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom:"20px"}}>
-          <DiCssdeck size="3rem" />
-          <Span>Portfolio</Span>
+          <HiOutlineCode size="4rem" />          
         </a>
       </Link>
     </Div1>
@@ -37,6 +36,11 @@ const Header = () => (
       <li>
         <Link href="#about" passHref>
           <NavLink>About</NavLink>
+        </Link>
+      </li>
+      <li>
+        <Link href="https://blog.advaith.co" passHref>
+          <NavLink>Blog</NavLink>
         </Link>
       </li>
     </Div2>
