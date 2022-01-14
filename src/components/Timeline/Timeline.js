@@ -10,7 +10,7 @@ import {
   CarouselItemText,
   CarouselItemTitle,
   CarouselMobileScrollNode,
-} from "./TimeLineStyles";
+} from "./TimelineStyles";
 import {
   Section,
   SectionDivider,
