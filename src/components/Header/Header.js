@@ -39,20 +39,20 @@ const Header = () => (
         </Link>
       </li>
       <li>
-        <Link href="https://blog.advaith.co" passHref>
-          <NavLink>Blog</NavLink>
+        <Link href="https://blog.advaith.co" passHref target="_blank">
+          <a href="https://blog.advaith.co" target="_blank" rel="noreferrer"><NavLink>Blog</NavLink></a>
         </Link>
       </li>
     </Div2>
 
     <Div3>
-      <SocialIcons href="https://github.com/advaith-unnikrishnan">
+      <SocialIcons href="https://github.com/advaith-unnikrishnan" target="_blank">
         <AiFillGithub size="3rem"/>
       </SocialIcons>
-      <SocialIcons href="https://twitter.com/advaith_u">
+      <SocialIcons href="https://twitter.com/advaith_u" target="_blank">
         <AiFillTwitterCircle size="3rem"/>
       </SocialIcons>
-      <SocialIcons href="https://www.linkedin.com/in/advaithu/">
+      <SocialIcons href="https://www.linkedin.com/in/advaithu/" target="_blank">
         <AiFillLinkedin size="3rem"/>
       </SocialIcons>
     </Div3>

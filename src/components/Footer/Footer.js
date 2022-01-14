@@ -36,19 +36,19 @@ const Footer = () => {
         </CompanyContainer>
 
         <SocialContainer>
-          <SocialIcons href="https://github.com/advaith-unnikrishnan">
+          <SocialIcons href="https://github.com/advaith-unnikrishnan" target={"_blank"}>
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.linkedin.com/in/advaithu/">
+          <SocialIcons href="https://www.linkedin.com/in/advaithu/" target={"_blank"}>
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://twitter.com/advaith_u">
+          <SocialIcons href="https://twitter.com/advaith_u" target={"_blank"}>
             <AiOutlineTwitter size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://instagram.com/advaith_u">
+          <SocialIcons href="https://instagram.com/advaith_u" target={'_blank'}>
             <AiFillInstagram size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://blog.advaith.tech/">
+          <SocialIcons href="https://blog.advaith.co/" target={"_blank"}>
             <SiHashnode size="3rem" />
           </SocialIcons>
         </SocialContainer>
