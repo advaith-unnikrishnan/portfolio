@@ -33,6 +33,15 @@ const Home = () => {
         <meta name="theme-color" content="#ffffff" />
         <title>Advaith | Home</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta
+          name="description"
+          content="Advaith U is a Web Developer, Community Evangelist and a tech speaker. He has prior experience working as a Google DSC Lead and Microsoft Student Ambassador."
+        />
+        <meta
+          name="keywords"
+          content="Advaith, Advaith U, Web Development, DSC Lead , Explore ML facilitator, Microsoft Student Ambassador, React Developer, Product Manager, Program Manager, Community evangelist in South India, Community Manager in South India, Tech Speaker"
+        />
+        <meta name="author" content="Advaith U" />
       </Head>
       <Layout>
         <Section grid>
