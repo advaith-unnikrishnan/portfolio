@@ -36,14 +36,14 @@ const Home = () => {
         {/* Primary Meta Tags */}
         <meta
           name="keywords"
-          content="Advaith, Advaith U, Web Development, DSC Lead , Explore ML facilitator, Microsoft Student Ambassador, React Developer, Product Manager, Program Manager, Community evangelist in South India, Community Manager in South India, Tech Speaker"
+          content="Advaith, Advaith U, Web Development, DSC Lead , Explore ML facilitator, Microsoft Student Ambassador, React Developer, Product Manager, Program Manager, Community evangelist in South India, Community Manager in South India, Tech Speaker, Friends of Figma, Friends of Figma India"
         />
         <meta name="author" content="Advaith U" />
         <title>Advaith U | Home</title>
         <meta name="title" content="Advaith U | Home" />
         <meta
           name="description"
-          content="Advaith U is a Web Developer, Community Evangelist, and tech speaker. He has prior experience working as a Google DSC Lead and Microsoft Student Ambassador."
+          content="Advaith is the India Regional Lead of Friends of Figma communities. He is a developer and community builder, who has a keen interest in product and growth strategy."
         />
 
         {/* Open Graph / Facebook */}
@@ -52,9 +52,9 @@ const Home = () => {
         <meta property="og:title" content="Advaith U | Home" />
         <meta
           property="og:description"
-          content="Advaith U is a Web Developer, Community Evangelist, and tech speaker. He has prior experience working as a Google DSC Lead and Microsoft Student Ambassador."
+          content="Advaith is the India Regional Lead of Friends of Figma communities. He is a developer and community builder, who has a keen interest in product and growth strategy."
         />
-        <meta property="og:image" content="/advaith.png" />
+        <meta property="og:image" content="/advaith.jpg" />
 
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
@@ -62,9 +62,9 @@ const Home = () => {
         <meta property="twitter:title" content="Advaith U | Home" />
         <meta
           property="twitter:description"
-          content="Advaith U is a Web Developer, Community Evangelist, and tech speaker. He has prior experience working as a Google DSC Lead and Microsoft Student Ambassador."
+          content="Advaith is the India Regional Lead of Friends of Figma communities. He is a developer and community builder, who has a keen interest in product and growth strategy."
         />
-        <meta property="twitter:image" content="/advaith.png" />
+        <meta property="twitter:image" content="/advaith.jpg" />
       </Head>
       <Layout>
         <Section grid>
