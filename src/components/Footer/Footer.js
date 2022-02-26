@@ -5,7 +5,7 @@ import {
   AiFillLinkedin,
   AiOutlineTwitter,
 } from "react-icons/ai";
-import { SiHashnode } from "react-icons/si";
+import { SiHashnode,SiSubstack } from "react-icons/si";
 
 import { SocialIcons } from "../Header/HeaderStyles";
 import {
@@ -36,21 +36,30 @@ const Footer = () => {
         </CompanyContainer>
 
         <SocialContainer>
-          <SocialIcons href="https://github.com/advaith-unnikrishnan" target={"_blank"}>
+          <SocialIcons
+            href="https://github.com/advaith-unnikrishnan"
+            target={"_blank"}
+          >
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.linkedin.com/in/advaithu/" target={"_blank"}>
+          <SocialIcons
+            href="https://www.linkedin.com/in/advaithu/"
+            target={"_blank"}
+          >
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
           <SocialIcons href="https://twitter.com/advaith_u" target={"_blank"}>
             <AiOutlineTwitter size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://instagram.com/advaith_u" target={'_blank'}>
+          <SocialIcons href="https://instagram.com/advaith_u" target={"_blank"}>
             <AiFillInstagram size="3rem" />
           </SocialIcons>
           <SocialIcons href="https://blog.advaith.co/" target={"_blank"}>
             <SiHashnode size="3rem" />
           </SocialIcons>
+          <SocialIcons href="https://advaithu.substack.com/" target="_blank">
+              <SiSubstack size="2.5rem" />
+            </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>

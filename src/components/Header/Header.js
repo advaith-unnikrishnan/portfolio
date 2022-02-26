@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillTwitterCircle } from "react-icons/ai";
 import { HiOutlineCode } from "react-icons/hi";
+import {SiSubstack} from 'react-icons/si';
 
 import {
   Container,
@@ -54,6 +55,9 @@ const Header = () => (
       </SocialIcons>
       <SocialIcons href="https://www.linkedin.com/in/advaithu/" target="_blank">
         <AiFillLinkedin size="3rem"/>
+      </SocialIcons>
+      <SocialIcons href="https://advaithu.substack.com/" target="_blank">
+        <SiSubstack size="2.5rem"/>
       </SocialIcons>
     </Div3>
   </Container>
