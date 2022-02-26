@@ -4,7 +4,7 @@ export const projects = [
     description:
       "Do you love books? Are you looking for some new recommendations to kickstart the year. take a look at it. Made with ReactJS",
     image: "/images/1.png",
-    tags: ["React","Javascript"],
+    tags: ["ReactJS"],
     source: "https://github.com/advaith-unnikrishnan/goodbooks",
     visit: "https://lkyud.csb.app/",
     id: 6,
@@ -14,7 +14,7 @@ export const projects = [
     description:
       "Emojis have now become part of our daily lifes. Do you know what exactly they mean? Checkout this emoji library to understand their meanings",
     image: "/images/2.png",
-    tags: ["React", "JavaScript"],
+    tags: ["ReactJS"],
     source: "https://github.com/advaith-unnikrishnan/emoji-interpreter",
     visit: "https://bps1h.csb.app/",
     id: 5,
@@ -44,7 +44,7 @@ export const projects = [
     description:
       "A CLI app made using NodeJS and Chalk to test your knowledge about Wizardry and Witchcraft 🧙‍♂️",
     image: "/images/4.jpg",
-    tags: ["Node JS", "JavaScript"],
+    tags: ["JavaScript"],
     source: "https://github.com/advaith-unnikrishnan/cli-app-2",
     visit: "https://repl.it/@advaithunnikris/hptrivia?embed=1",
     id: 2,
@@ -54,7 +54,7 @@ export const projects = [
     description:
       "A CLI app made using NodeJS to check whether you know me or not?",
     image: "/images/4.jpg",
-    tags: ["HTML", "CSS", "JavaScript"],
+    tags: ["JavaScript"],
     source: "https://github.com/advaith-unnikrishnan/cli-app-1",
     visit: "https://repl.it/@advaithunnikris/doyouknowme?embed=1",
     id: 1,
