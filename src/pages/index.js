@@ -65,6 +65,7 @@ const Home = () => {
           content="Advaith is the India Regional Lead of Friends of Figma communities. He is a developer and community builder, who has a keen interest in product and growth strategy."
         />
         <meta property="twitter:image" content="/advaith.jpg" />
+        <script src="https://app.embed.im/snow.js" defer></script>
       </Head>
       <Layout>
         <Section grid>
