@@ -12,15 +12,15 @@ import { LeftSection } from "./HeroStyles";
 const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
-      <SectionTitle main center>
+      {/* <SectionTitle main center>
         Hi there <br />
         I'm Advaith
-      </SectionTitle>
+      </SectionTitle> */}
 
       <SectionText>
-       Developer | Community Evangelist | Product Enthusiast
+       Thanks for dropping in!! A new portfolio is in the works, if you want to get in touch with me or check my works for the time being Visit the Bento profile below
       </SectionText>
-      <Button onClick={()=>window.location="https://peerlist.io/advaith"}>Learn More</Button>
+      <Button onClick={()=>window.location="https://bento.me/advaith"}>Bento</Button>
     </LeftSection>
   </Section>
 );
